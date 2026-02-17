@@ -12,7 +12,16 @@ Prerequisites:
 - Download Visual code or similar
 - Install python (3.11)
 
-Installation steps:
+### Important
+Each developer must create their own:
+
+- Python virtual environment
+- ~/.dbt/profiles.yml
+- Snowflake credentials
+
+These are NOT included in the repository.
+
+### INSTALLATION STEPS
 
 ## 1. Create workspace folder
 
