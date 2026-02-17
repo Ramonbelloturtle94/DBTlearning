@@ -1,0 +1,13 @@
+# virtual env
+dbt_env/
+
+# dbt build artifacts
+target/
+logs/
+dbt_packages/
+
+# mac
+.DS_Store
+
+# secrets
+.env
