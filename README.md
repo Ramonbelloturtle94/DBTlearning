@@ -1,3 +1,6 @@
+## Purpose
+This repository exists to establish a safe local dbt development workflow and define future analytics engineering standards before wider team adoption.
+
 # dbt Local Setup (Snowflake + VS Code)
 
 This guide explains how to set up dbt locally using a Python virtual environment and connect safely to Snowflake using a sandbox schema.
