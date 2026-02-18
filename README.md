@@ -6,7 +6,7 @@ This guide explains how to set up dbt locally using a Python virtual environment
 
 DBT = Data Build Tool 
 - An open source command-line tool to transform data in the warehouse more effectively. 
-- It is the 'T' in ELT (Extract, Load, Transaform) and links directly to snowflake 
+- It is the 'T' in ELT (Extract, Load, Transform) and links directly to snowflake 
 
 Prerequisites:
 - Download Visual code or similar
