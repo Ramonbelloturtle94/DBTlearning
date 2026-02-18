@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../DBT "
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../.dbt"
+		}
+	],
+	"settings": {}
+}
