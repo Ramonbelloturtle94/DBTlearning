@@ -27,7 +27,7 @@ These are **NOT** included in the repository.
 
 # Installation Steps
 
-## 1. Create workspace folder
+1. Create workspace folder
 
 ```bash
 mkdir -p ~/dbt_workspace
