@@ -9,7 +9,7 @@ This guide explains how to set up dbt locally using a Python virtual environment
 
 DBT = Data Build Tool 
 - An open source command-line tool to transform data in the warehouse more effectively. 
-- It is the 'T' in ELT (Extract, Load, Transform) and links directly to snowflake 
+- It is the 'T' in ELT (Extract, Load, Transaform) and links directly to snowflake 
 
 Prerequisites:
 - Download Visual code or similar
@@ -17,14 +17,15 @@ Prerequisites:
 
 ### Important
 Each developer must create their own:
-
 - Python virtual environment
-- ~/.dbt/profiles.yml
+- `~/.dbt/profiles.yml`
 - Snowflake credentials
 
-These are NOT included in the repository.
+These are **NOT** included in the repository.
 
-### INSTALLATION STEPS
+---
+
+# Installation Steps
 
 ## 1. Create workspace folder
 
@@ -78,6 +79,23 @@ mkdir -p ~/.dbt
 
 Open the profile file: 
 code ~/.dbt/profiles.yml
+
+Example profile (username + password) file:
+
+dbt_learning:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: YOUR_ACCOUNT_LOCATOR
+      user: YOUR_USERNAME
+      password: YOUR_PASSWORD
+      role: YOUR_ROLE
+      warehouse: YOUR_WAREHOUSE
+      database: YOUR_DATABASE
+      schema: YOURNAME_DBT_SANDBOX
+      threads: 4
+      client_session_keep_alive: false
 
 (If the code command isn't available)
 
